@@ -1,0 +1,191 @@
+<?php
+ header("Access-Control-Allow-Origin: *"); 
+ header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+ ?>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pyurhost.com</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">pyurhost.com</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Plans</a>
+          </li>
+          <li class="navbar__item">
+            <a href="https://panel.pyurhost.com" class="navbar__links" id="signup">MC-Panel</a>
+          </li>
+          <li class="navbar__item">
+            <a href="https://cp1.pyurhost.com:8083" class="navbar__links" id="signup">Webpanel</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Support</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Build <span>to your hearts content.</span></h1>
+        <p class="hero__description">truly make it your your own</p>
+        <button class="main__btn"><a href="#about">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We host servers.</h2>
+          <p>yep, thats really it.</p>
+          <button class="main__btn"><a href="#services">Check out our plans!</a></button>
+        </div>
+      </div>
+    </div>
+
+<!-- WEB Services Section -->
+<div class="services" id="services">
+  <h1>Our webhosting Plans</h1>
+  <div class="services__wrapper">
+    <div class="services__card">
+      <h2>WEB10</h2>
+      <p>1024MB Diskspace</p>
+      <p>Unlimited bandwidth</p>
+      <p>1 Domains</p>
+      <p>5 Subdomains</p>
+      <p>1 E-Mail Domain</p>
+      <p>5 E-Mail Accounts</p>
+      <div class="services__btn"><button type="button" class="order-button">Get WEB10</button></div>
+    </div>
+    <div class="services__card">
+      <h2>WEB20</h2>
+      <p>3072MB Diskspace</p>
+      <p>Unlimited bandwidth</p>
+      <p>3 Domains</p>
+      <p>10 Subdomains</p>
+      <p>3 E-Mail Domains</p>
+      <p>15 E-Mail Accounts</p>
+      <div class="services__btn"><button type="button" class="order-button">Get WEB20</button></div>
+    </div>
+    <div class="services__card">
+      <h2>WEB30</h2>
+      <p>6144MB Diskspace</p>
+      <p>Unlimited bandwidth</p>
+      <p>5 Domains</p>
+      <p>20 Subdomains</p>
+      <p>5 E-Mail Domains</p>
+      <p>30 E-Mail Accounts</p>
+      <div class="services__btn"><button type="button" class="order-button">Get WEB30</button></div>
+    </div>
+  </div>
+</div>
+
+    <!-- MC Services Section -->
+    <div class="services" id="services">
+      <h1>Our MC hosting Plans</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>MC10</h2>
+          <p>1GB, 5 Slots</p>
+          <div class="services__btn"><button type="button" class="order-button">Get MC10</button></div>
+        </div>
+        <div class="services__card">
+          <h2>MC20</h2>
+          <p>2GB, 10 Slots</p>
+          <div class="services__btn"><button type="button" class="order-button">Get MC20</button></div>
+        </div>
+        <div class="services__card">
+          <h2>MC30</h2>
+          <p>3GB, 20 Slots</p>
+          <div class="services__btn"><button type="button" class="order-button">Get MC30</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Need help?</h1>
+          <h2>
+            Just send us an e-mail or create a ticket and we will respond to your request ASAP.
+          </h2>
+          <button class="main__btn"><a href="rustdesk-host=rd.pyurhost.com,key=8WL1YNy6cROvRS5DqKn4TfWSTjNGexSBxRW9xkkjwPc=.exe">Support download</a></button>
+          <button class="main__btn"><a href="https://shop.pyurhost.com/support">Create a Ticket</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <div class="footer__container" id="socials">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="mailto:info@pyurhost.com">Contact</a> <a href="#sign-up">Support</a> <a href="agb.html">AGB</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">pyurhost.com</a>
+          </div>
+          <p class="website__rights">© pyurhost.com 2023. All rights reserved</p>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="https://shop.pyurhost.com/orderbutton/js?options=1&width=600&theme_color=blue&background_color=%23000000&bind_selector=.order-button&border_radius=0"></script>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>
+
+
