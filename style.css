@@ -56,7 +56,7 @@ nav{
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8;
+    background-color: #8e16c2;
     transition: all 0.3s ease;
 }
 
@@ -152,7 +152,7 @@ header .image::before{
     font-size: 38rem;
     font-weight: 400;
     line-height: 20rem;
-    color: #1d4ed8;
+    color: #8e16c2;
     opacity: 0.2;
     z-index: -100;
 }
@@ -218,7 +218,7 @@ section .header{
 }
 
 .features .card a:hover{
-    color: #1e40af;
+    color: #b200ff;
 }
 
 .sub-header{
@@ -289,8 +289,8 @@ section .header{
 }
 
 .pricing .card button:hover{
-    background-color: #1e40af;
-    border-color: #1e40af;
+    background-color: #b200ff;
+    border-color: #b200ff;
 }
 
 footer{
