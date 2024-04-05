@@ -103,7 +103,7 @@ nav{
     transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn-cal:hover{
     background-color: #8e16c2;
 }
 
