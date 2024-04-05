@@ -93,6 +93,20 @@ nav{
     background-color: #8e16c2;
 }
 
+.btn-cal{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #b200ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #8e16c2;
+}
+
 .container{
     max-width: 1200px;
     margin: auto;

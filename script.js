@@ -28,3 +28,7 @@ link3.addEventListener('click', () => {
 document.querySelector('.btn').addEventListener('click', function() {
     window.location.href = 'https://crm.pyurhost.com/public/ticket/';
 });
+
+document.querySelector('.btn-cal').addEventListener('click', function() {
+    window.location.href = 'https://pyurhost.com/calendar.html';
+});
